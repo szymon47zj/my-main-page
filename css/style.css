@@ -276,27 +276,27 @@ nav {
       box-shadow: 10px 10px 10px #304C5D;
       margin-bottom: 30px; }
       .projects .projects-container .background .mask {
-        padding: 20px;
+        padding: 10px;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.8);
         opacity: 0;
         transition: all 0.4s; }
-        .projects .projects-container .background .mask .content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          height: 100%;
-          justify-content: center;
-          text-align: center;
-          color: #e6e6e6; }
-          .projects .projects-container .background .mask .content h3 {
-            color: #9F9F9F;
-            font-size: 1.5em; }
-            .projects .projects-container .background .mask .content h3 a {
-              text-decoration: none;
-              color: #246DAC; }
-          .projects .projects-container .background .mask .content h4 {
-            color: #9F9F9F; }
+        .projects .projects-container .background .mask a {
+          text-decoration: none;
+          color: #246DAC; }
+          .projects .projects-container .background .mask a .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100%;
+            justify-content: center;
+            text-align: center;
+            color: #e6e6e6; }
+            .projects .projects-container .background .mask a .content h3 {
+              color: #246DAC;
+              font-size: 1.5em; }
+            .projects .projects-container .background .mask a .content h4 {
+              color: #9F9F9F; }
       .projects .projects-container .background:hover {
         border: 0; }
         .projects .projects-container .background:hover .mask {
