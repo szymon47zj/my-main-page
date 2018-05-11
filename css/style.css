@@ -433,7 +433,7 @@ footer {
   line-height: 40px; }
 
 /* = = = = = LARGE = = = = = */
-@media screen and (min-width: 992px) and (max-width: 1170px) {
+@media all and (min-width: 992px) and (max-width: 1170px) {
   h1 {
     font-size: 4em; }
   h2 {
@@ -506,20 +506,27 @@ footer {
 /* hamburger menu */
 @media all and (max-width: 992px) {
   #main-nav .toggle {
+    font-size: 20px;
     display: block;
     color: #246DAC;
-    padding: 20px 40px;
+    padding: 20px;
     text-align: right; }
   #main-nav ul {
     display: none; }
   #main-nav #drop:checked + ul {
-    display: block; }
+    display: inline-block;
+    width: 220px;
+    padding: 0;
+    position: absolute;
+    right: 0; }
   #main-nav ul li {
     display: block;
-    text-align: right;
-    padding: 10px; } }
+    padding: 10px 20px;
+    background: RGBA(255, 255, 255, 0.5); } }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+/* = = = = = = = = */
+/* = = = = = = = = */
+@media all and (min-width: 768px) and (max-width: 992px) {
   h1 {
     font-size: 3em; }
   h2 {
@@ -636,10 +643,7 @@ footer {
     font-size: 1em; } }
 
 /* = = = = = SMALL = = = = =  and = = = = = X-SMALL = = = = = */
-@media screen and (max-width: 768px) {
-  nav {
-    display: none;
-    /* !!!!!!!!!!!!!!!*/ }
+@media all and (max-width: 768px) {
   .primary {
     height: 360px; }
     .primary .name-container {
