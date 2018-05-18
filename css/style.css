@@ -306,25 +306,25 @@ nav {
         .projects .projects-container .background:hover .mask {
           opacity: 1; }
     .projects .projects-container #bg1 {
-      background-image: url(../img/lista.png); }
+      background-image: url(../img/portfolio1.png); }
     .projects .projects-container #bg2 {
-      background-image: url(../img/first%20to%20last.png); }
+      background-image: url(../img/portfolio2.png); }
     .projects .projects-container #bg3 {
-      background-image: url(../img/kalkulator.png); }
+      background-image: url(../img/portfolio3.png); }
     .projects .projects-container #bg4 {
-      background-image: url(../img/floating%20border.png); }
+      background-image: url(../img/lista.png); }
     .projects .projects-container #bg5 {
-      background-image: url(../img/Happy%20easter.png); }
+      background-image: url(../img/kalkulator.png); }
     .projects .projects-container #bg6 {
-      background-image: url(../img/Kaboom.png); }
+      background-image: url(../img/first%20to%20last.png); }
     .projects .projects-container #bg7 {
-      background-image: url(../img/text.png); }
+      background-image: url(../img/floating%20border.png); }
     .projects .projects-container #bg8 {
-      background-image: url(../img/sortowanie_babelkowe.png); }
+      background-image: url(../img/Happy%20easter.png); }
     .projects .projects-container #bg9 {
-      background-image: url(../img/skew.png); }
+      background-image: url(../img/text.png); }
     .projects .projects-container #bg10 {
-      background-image: url(../img/flex%20exercise.png); }
+      background-image: url(../img/Kaboom.png); }
 
 /* = = = = = = = = = = section CONTACT = = = = = = = = = = */
 .contact {
