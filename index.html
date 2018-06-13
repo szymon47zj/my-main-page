@@ -1,59 +1,314 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
 	<meta charset="UTF-8">
-	<title>animal sounds</title>
-	<link rel="stylesheet" href="style.css">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Szymon Baliński's website</title>
+
+	<!--google fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:400,700|Vollkorn:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<!--bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!--font awesome-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+
+	<!--main css-->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--RWD-->
+	<!--	<link rel="stylesheet" href="css/responsive.css">-->
+
 </head>
 
 <body>
-	<h1>Odgłosy zwierząt</h1>
-	<div class="container">
-		<div id="alligator" class="animal">Aligator</div>
-		<div id="dove" class="animal">Gołąb</div>
-		<div id="turkey" class="animal">Indyk</div>
-		<div id="duck" class="animal">Kaczka</div>
-		<div id="rooster" class="animal">Kogut</div>
-		<div id="cat" class="animal">Kot</div>
-		<div id="horse" class="animal">Koń</div>
-		<div id="cow" class="animal">Krowa</div>
-		<div id="lion" class="animal">Lew</div>
-		<div id="moose" class="animal">Łoś</div>
-		<div id="ape" class="animal">Małpa</div>
-		<div id="bat" class="animal">Nietoperz</div>
-		<div id="sheep" class="animal">Owca</div>
-		<div id="panda" class="animal">Panda</div>
-		<div id="dog" class="animal">Pies</div>
-		<div id="penguin" class="animal">Pingwin</div>
-		<div id="bee" class="animal">Pszczoła</div>
-		<div id="elephant" class="animal">Słoń</div>
-		<div id="owl" class="animal">Sowa</div>
-		<div id="pig" class="animal">Świnia</div>
-		<div id="tiger" class="animal">Tygrys</div>
-	</div>
+	<main>
+		<!--  main navigation -->
+		<nav class="navbar" id="main-nav">
 
-	<audio data-animal="alligator" src="audio/alligator.mp3"></audio>
-	<audio data-animal="dove" src="audio/dove.mp3"></audio>
-	<audio data-animal="turkey" src="audio/turkey.mp3"></audio>
-	<audio data-animal="duck" src="audio/duck.mp3"></audio>
-	<audio data-animal="rooster" src="audio/rooster.mp3"></audio>
-	<audio data-animal="cat" src="audio/cat.mp3"></audio>
-	<audio data-animal="horse" src="audio/horse.mp3"></audio>
-	<audio data-animal="cow" src="audio/cow.mp3"></audio>
-	<audio data-animal="lion" src="audio/lion.mp3"></audio>
-	<audio data-animal="moose" src="audio/moose.mp3"></audio>
-	<audio data-animal="ape" src="audio/ape.mp3"></audio>
-	<audio data-animal="bat" src="audio/bat.mp3"></audio>
-	<audio data-animal="sheep" src="audio/sheep.mp3"></audio>
-	<audio data-animal="panda" src="audio/panda.mp3"></audio>
-	<audio data-animal="dog" src="audio/dog.mp3"></audio>
-	<audio data-animal="penguin" src="audio/penguin.mp3"></audio>
-	<audio data-animal="bee" src="audio/bee.mp3"></audio>
-	<audio data-animal="elephant" src="audio/elephant.mp3"></audio>
-	<audio data-animal="owl" src="audio/owl.mp3"></audio>
-	<audio data-animal="pig" src="audio/pig.mp3"></audio>
-	<audio data-animal="tiger" src="audio/tiger.mp3"></audio>
+			<label for="drop" class="toggle">Menu</label>
+			<input type="checkbox" id="drop">
+
+			<ul>
+				<li><a href="#primary"><i class="fas fa-home"></i> Start</a></li>
+				<li><a href="#about"><i class="fas fa-user-tie"></i> O mnie</a></li>
+				<li><a href="#skills"><i class="fa fa-user-graduate"></i> Moje umiejętności</a></li>
+				<li><a href="#projects"><i class="fas fa-desktop"></i> Moje projekty</a></li>
+				<li><a href="#contact"><i class="fas fa-envelope"></i> Kontakt</a></li>
+			</ul>
+		</nav>
+
+		<!-- section PRIMARY -->
+
+		<section class="primary" id="primary">
+			<div class="name-container">
+				<h1>Szymon <span class="text">Baliński</span></h1>
+				<h2>Front-end developer</h2>
+			</div>
+
+			<div class="package">
+				<div><img src="img/chm_7.png" alt="chmura"></div>
+				<div><img src="img/chm_8.png" alt="chmura"></div>
+				<div><img src="img/chm_5.png" alt="chmura"></div>
+				<div><img src="img/chm_6.png" alt="chmura"></div>
+				<div><img src="img/chm_3.png" alt="chmura"></div>
+				<div><img src="img/chm_4.png" alt="chmura"></div>
+				<div><img src="img/chm_1.png" alt="chmura"></div>
+				<div><img src="img/chm_2.png" alt="chmura"></div>
+			</div>
+
+			<div class="package package2">
+				<div><img src="img/chm_5.png" alt="chmura"></div>
+				<div><img src="img/chm_7.png" alt="chmura"></div>
+				<div><img src="img/chm_6.png" alt="chmura"></div>
+				<div><img src="img/chm_8.png" alt="chmura"></div>
+				<div><img src="img/chm_1.png" alt="chmura"></div>
+				<div><img src="img/chm_3.png" alt="chmura"></div>
+				<div><img src="img/chm_2.png" alt="chmura"></div>
+				<div><img src="img/chm_4.png" alt="chmura"></div>
+			</div>
+
+			<div class="package package3">
+				<div><img src="img/chm_8.png" alt="chmura"></div>
+				<div><img src="img/chm_3.png" alt="chmura"></div>
+				<div><img src="img/chm_5.png" alt="chmura"></div>
+				<div><img src="img/chm_2.png" alt="chmura"></div>
+				<div><img src="img/chm_4.png" alt="chmura"></div>
+				<div><img src="img/chm_7.png" alt="chmura"></div>
+				<div><img src="img/chm_1.png" alt="chmura"></div>
+				<div><img src="img/chm_6.png" alt="chmura"></div>
+			</div>
+		</section>
+
+
+		<!-- section ABOUT ME -->
+
+		<section class="about" id="about">
+			<div class="about-container">
+				<h2>O <span>mnie</span></h2>
+				<figure>
+					<img src="img/balwan.jpg" alt="snowman">
+					<figcaption>Parafrazując Klasyka: <br>To jest bałwan na miarę moich możliwości i&nbsp;to nie jest moje ostatnie słowo!</figcaption>
+				</figure>
+
+				<div class="text">
+					<p>Cześć, mam na imię Szymon i&nbsp;postanowiłem dołączyć do rzeszy osób pracujących stukaniem w&nbsp;klawiaturę komputera. </p>
+					<p>Jestem człowiekiem, który nie uznaje półśrodków, zamiast trudności widzi wyzwania i&nbsp;robi wszystko, żeby im sprostać. Żyję według maksymy: <span>"To, co inni robią dobrze, rób lepiej"</span>. </p>
+					<p>Film Stanisława Barei pt. "Miś" obejrzałem pewnie ze sto razy. Pasjonuje mnie sport, a&nbsp;szczególnie często moje myśli zaprząta piłka nożna. Jako były nauczyciel matematyki i&nbsp;wychowawca klasowy za swój największy sukces uważam to, że moi uczniowie nie przechodzą na drugą stronę drogi, kiedy się przypadkowo spotykamy na ulicy.</p>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- My skills -->
+
+		<section class="skills" id="skills">
+			<div class="skills-text">
+				<h2>Moje <span>umiejętności</span></h2>
+				<p>Poniżej krótka lista technologii, z&nbsp;których korzystam w&nbsp;czasie pracy nad projektami.</p>
+				<p>Zwracam szczególną uwagę na poprawność semantyczną kodu. Stosuję CSS Flexbox, CSS Grid, preprocesory Sass i&nbsp;Less. Potrafię korzystać z&nbsp;Bootstrapa, ale nie potrzebuję go, by tworzyć responsywne strony WWW. Do&nbsp;wykonania animacji preferuję CSS'a, lecz czasami wykorzystuję jQuery. Znam podstawy Wordpress'a. Tworzę dynamiczne strony internetowe wykorzystując JavaScript. W&nbsp;pracy nad projektami używam systemu kontroli wersji GIT.</p>
+			</div>
+			<div class="skills-icons">
+				<img src="ikony/html.png" alt="ikona html">
+				<img src="ikony/css.png" alt="ikona css">
+				<img src="ikony/js.png" alt="ikona js">
+				<img src="ikony/bootstrap.png" alt="ikona bootstrap">
+				<img src="ikony/jquery.png" alt="ikona jquery">
+				<img src="ikony/github.png" alt="ikona github">
+				<img src="ikony/sass.svg" alt="ikona sass">
+				<img src="ikony/less.png" alt="ikona less">
+				<img src="ikony/wordpress.png" alt="ikona wordpress">
+				<img src="ikony/ajax.png" alt="ikona ajax">
+				<img src="ikony/gulp.png" alt="ikona gulp">
+			</div>
+		</section>
+
+
+		<!-- My projects -->
+
+		<section class="projects" id="projects">
+			<h2>Moje <span>projekty</span></h2>
+
+			<div class="projects-container">
+
+				<div class="background" id="bg1">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/portfolio-Bootstrap-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Projekt 1</h3>
+								<p>Projekt strony www</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS (Bootstrap), JS (jQuery)</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg2">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/portfolio-2-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Projekt 2</h3>
+								<p>Projekt strony www</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JS</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg3">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/portfolio-3-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Projekt 3</h3>
+								<p>Projekt strony www</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg4">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/dynamic-list-of-names-MINI-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Dynamiczna lista osób</h3>
+								<p>Lista osób, wyświetlająca imiona i&nbsp;nazwiska spełniające określony warunek.</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg5">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/calculator-MINI-PROJECT/index.html" target="_blank">
+							<div class="content">
+								<h3>Kalkulator</h3>
+								<p>Po prostu kalkulator. Liczy i&nbsp;już.</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg6">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/to-do-list-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Lista to-do</h3>
+								<p>Zapisz, zrób, skasuj z listy.</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg7">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/clock-and-date-SNIPPET/index.html" target="_blank">
+							<div class="content">
+								<h3>Zegar</h3>
+								<p>Aktualna data i czas.</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg8">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/Paragraph-order-changing-button-SNIPPET/index.html" target="_blank">
+							<div class="content">
+								<h3>First to last, last to first</h3>
+								<p>Zmiana kolejności wyświetlanych paragrafów po kliknięciu w&nbsp;odpowiedni przycisk.</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg9">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/animals-sounds-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Animals sounds</h3>
+								<p>Odgłosy zwierząt</p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS, JavaScript</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+				<div class="background" id="bg10">
+					<div class="mask">
+						<a href="https://szymon47zj.github.io/happy-easter-MINI-PROJECT/" target="_blank">
+							<div class="content">
+								<h3>Happy Easter</h3>
+								<p>Życzenia wielkanocne. Projekt graficzny wzorowany na pomyśle zaczerpniętym z&nbsp;<em>flynerd.pl</em></p>
+								<h4>wykorzystane technologie:</h4>
+								<p>HTML, CSS (animation, Flexbox)</p>
+							</div>
+						</a>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<!-- Contact me -->
+
+		<section class="contact" id="contact">
+
+			<div class="contact-container">
+				<h2>Jak się ze mną <span>skontaktować?</span></h2>
+				<h3>Napisz do mnie:</h3>
+				<div class="social-icons">
+					<a href="mailto:sz162@interia.pl" target="_blank"><i class="fas fa-envelope-square"></i></a>
+					<a href="https://www.linkedin.com/in/szymon-balinski/" target="_blank"><i class="fab fa-linkedin"></i></a>
+				</div>
+				<h3>lub wypełnij formularz kontaktowy:</h3>
+				<!--				<form action="mailto:sz162@interia.pl" method="post">-->
+				<form accept-charset="UTF-8" action="https://formspree.io/sz162@interia.pl" method="POST">
+					<input type="text" name="name" placeholder="Imię i nazwisko">
+					<input type="email" name="email" placeholder="Email">
+					<input type="phone" name="phone" placeholder="Telefon">
+					<textarea name="message" placeholder="Wiadomość"></textarea>
+					<input name="submit" type="submit" value="Wyślij">
+				</form>
+			</div>
+		</section>
+	</main>
+	<!-- Footer -->
+
+	<footer>
+		copyright &copy;: Szymon Baliński
+	</footer>
+
+
+	<!-- scripts -->
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 	<script src="main.js"></script>
 </body>
